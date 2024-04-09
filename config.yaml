@@ -2,7 +2,7 @@ settings:
   title: 'ClickNow Status Pages'
   url: 'https://status.clicknow.my.id' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
+  daysInHistogram: 30 # number of days you want to display in histogram, default=90
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
