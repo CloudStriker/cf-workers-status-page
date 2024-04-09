@@ -27,7 +27,7 @@ monitors:
   - id: simpenan-clicknow
     name: Simpenan ClickNow
     description: 'Files for ClickNow '
-    url: 'https://simpenan.clicknow.my.id'
+    url: 'https://simpenan.clicknow.my.id/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
@@ -37,3 +37,21 @@ monitors:
     url: 'https://zentonator.clicknow.my.id/'
     method: GET
     expectStatus: 200
+
+  - id: yorsha # unique identifier
+    name: Yorsha Site
+    description: 'Yorsha Site' # default=empty
+    url: 'https://yorsha.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: yorsha-topup # unique identifier
+    name: Topup Yorsha
+    description: 'Topup Yorsha Site' # default=empty
+    url: 'https://topup.yorsha.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
